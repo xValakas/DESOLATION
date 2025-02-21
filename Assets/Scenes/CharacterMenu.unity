@@ -546,7 +546,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1408322269}
         m_TargetAssemblyTypeName: SelectionManager, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: ConfirmSelection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1171,11 +1171,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47d39aaca9150864f8e747d8184dd4d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 9100000, guid: 14186851576720c40be0ccaf4c9b1823, type: 2}
   sr: {fileID: 3709467527292195322}
-  characters:
-  - {fileID: 258835065, guid: b46881f1d6d1ca74aa380ad10e862588, type: 3}
-  - {fileID: -1215463407, guid: 3a61f9d593fd58c48b1e2e99f37758ab, type: 3}
-  playercharacter: {fileID: 3709467527292195323}
+  selections:
+  - displayName: Happy Bob
+    selectionSprite: {fileID: -61698056, guid: f9910f3cd731dd746807fecee20781ae, type: 3}
+    controller: {fileID: 9100000, guid: 14186851576720c40be0ccaf4c9b1823, type: 2}
+  - displayName: Toxic Bob
+    selectionSprite: {fileID: 1320726512, guid: e245c5d5b8c5271478cfaf24e99ee2ad,
+      type: 3}
+    controller: {fileID: 9100000, guid: 47337004f24f6854a8e5cc0fb200522d, type: 2}
+  playercharacter: {fileID: 3709467527292195325}
+  nameText: {fileID: 293618044}
 --- !u!4 &1408322270
 Transform:
   m_ObjectHideFlags: 0
@@ -1363,7 +1370,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 450, y: 0}
+  m_AnchoredPosition: {x: 681, y: 0}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1576488170
@@ -1523,6 +1530,51 @@ Transform:
   - {fileID: 1104145666}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1814908243
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1814908245}
+  - component: {fileID: 1814908244}
+  m_Layer: 0
+  m_Name: _FungusState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1814908244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814908243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedFlowchart: {fileID: 0}
+--- !u!4 &1814908245
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814908243}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1818324596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1666,7 +1718,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1836789777557746343, guid: 7f31971710732ee4ca18ca0d07a454ad,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3709467527292195325}
   m_SourcePrefab: {fileID: 100100000, guid: 7f31971710732ee4ca18ca0d07a454ad, type: 3}
 --- !u!212 &3709467527292195322 stripped
 SpriteRenderer:
@@ -1680,6 +1736,28 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3709467527292195321}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &3709467527292195325
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3709467527292195323}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1692,3 +1770,4 @@ SceneRoots:
   - {fileID: 3709467527292195321}
   - {fileID: 12936518}
   - {fileID: 1408322270}
+  - {fileID: 1814908245}

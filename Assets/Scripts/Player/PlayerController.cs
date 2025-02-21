@@ -53,7 +53,7 @@ namespace Platformer
             {
                 rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
             }
-            if (!isGrounded) animator.SetInteger("playerState", 2); // Turn on jump animation
+            // if (!isGrounded) animator.SetInteger("playerState", 2); // Turn on jump animation
 
             if (facingRight == true && moveInput > 0)
             {
