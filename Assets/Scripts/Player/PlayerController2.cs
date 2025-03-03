@@ -9,7 +9,6 @@ public class PlayerController2 : MonoBehaviour
     [SerializeField] public Vector2 moveSpeed;
     [SerializeField] public float speedMultiplier;
     [SerializeField] public float jumpForce;
-    [SerializeField] public float moveInput;
     [SerializeField] public float sprintCooldown;
 
     [Header("Movement Controls")]
@@ -17,8 +16,8 @@ public class PlayerController2 : MonoBehaviour
     [SerializeField] KeyCode downKey;
     [SerializeField] KeyCode leftKey;
     [SerializeField] KeyCode rightKey;
-    private bool isGrounded;
-    public Transform groundCheck;
+    /*private bool isGrounded;
+    public Transform groundCheck;*/
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -45,7 +44,7 @@ public class PlayerController2 : MonoBehaviour
         }
         else
         {
-           //idle animator....
+            animator.SetInteger("playerState", 0);
         }
 
     }
