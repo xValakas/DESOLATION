@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEditor;
 //using UnityEngine.UI;
 using TMPro;
-using TMPro.EditorUtilities;
+//using TMPro.EditorUtilities;
 
 [System.Serializable]
 public class SelectionInfo
