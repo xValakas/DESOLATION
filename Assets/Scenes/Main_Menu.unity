@@ -1464,6 +1464,10 @@ MonoBehaviour:
     minAlpha: 0.2
     maxAlpha: 1.2
     timerAlpha: 1.2
+  - text: {fileID: 1527506474}
+    minAlpha: 0.2
+    maxAlpha: 1.2
+    timerAlpha: 1.2
   HelpURL: nvjob.github.io/unity/alpha-flashing-text
   ReportAProblem: nvjob.github.io/support
   Patrons: nvjob.github.io/patrons
@@ -1870,6 +1874,8 @@ GameObject:
   - component: {fileID: 843518628}
   - component: {fileID: 843518627}
   - component: {fileID: 843518629}
+  - component: {fileID: 843518630}
+  - component: {fileID: 843518631}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1951,11 +1957,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 197.46999, y: 69.7744}
+  scrollPos: {x: 171.7678, y: 47.242485}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 594
-  zoom: 0.94000006
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1963,8 +1969,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 843518588}
-  selectedCommands: []
+  - {fileID: 843518601}
+  selectedCommands:
+  - {fileID: 843518631}
   variables:
   - {fileID: 843518583}
   - {fileID: 843518614}
@@ -2441,6 +2448,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 843518631}
   - {fileID: 843518589}
   - {fileID: 843518611}
   - {fileID: 843518592}
@@ -3334,7 +3342,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 0.25
   durationOLD: 0
 --- !u!114 &843518618
 MonoBehaviour:
@@ -3388,6 +3396,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 843518628}
   - {fileID: 843518627}
+  - {fileID: 843518630}
   suppressAllAutoSelections: 0
 --- !u!114 &843518623
 MonoBehaviour:
@@ -3463,7 +3472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  text: Option Text
+  text: Volume
   description: 
   targetBlock: {fileID: 843518624}
   hideIfVisited: 0
@@ -3497,7 +3506,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &843518629
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3515,6 +3524,52 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &843518630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843518578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  text: Return
+  description: 
+  targetBlock: {fileID: 843518601}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &843518631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843518578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 2146983877}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!1 &850465978
 GameObject:
   m_ObjectHideFlags: 0
