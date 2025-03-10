@@ -1159,8 +1159,8 @@ Transform:
   m_GameObject: {fileID: 513818621}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 961.1396, y: 538.9279, z: 0}
-  m_LocalScale: {x: 143.09212, y: 140.58209, z: 98.04}
+  m_LocalPosition: {x: 959.9284, y: 539.8968, z: 0}
+  m_LocalScale: {x: 142.8822, y: 140.68336, z: 98.04}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -1832,7 +1832,6 @@ GameObject:
   - component: {fileID: 843518582}
   - component: {fileID: 843518581}
   - component: {fileID: 843518580}
-  - component: {fileID: 843518604}
   - component: {fileID: 843518602}
   - component: {fileID: 843518601}
   - component: {fileID: 843518600}
@@ -1942,7 +1941,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 843518634}
   - {fileID: 843518612}
-  - {fileID: 843518604}
   - {fileID: 843518602}
   suppressAllAutoSelections: 0
 --- !u!114 &843518582
@@ -1958,11 +1956,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 237.42589, y: 76.234726}
+  scrollPos: {x: 333.3861, y: 1.0085742}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 594
-  zoom: 0.94000006
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1970,9 +1968,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 843518581}
-  selectedCommands:
-  - {fileID: 843518604}
+  - {fileID: 843518590}
+  selectedCommands: []
   variables:
   - {fileID: 843518583}
   - {fileID: 843518614}
@@ -2478,27 +2475,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &843518604
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843518578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 2146983877}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &843518606
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3561,7 +3537,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &843518634
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3573,7 +3549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  duration: 1
+  duration: 3
   fadeOut: 1
   targetView: {fileID: 1221856245}
   waitUntilFinished: 1
@@ -5714,7 +5690,7 @@ Transform:
   m_GameObject: {fileID: 1553785666}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1263, y: 554, z: -9.99124}
+  m_LocalPosition: {x: -1011, y: 554, z: -9.99124}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5856,6 +5832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: View
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -5870,11 +5850,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 959
+      value: 952
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 567
+      value: 549
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5914,11 +5894,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: viewSize
-      value: 479.6
+      value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: primaryAspectRatio.x
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: primaryAspectRatio.y
@@ -7508,7 +7488,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2146983878
 RectTransform:
   m_ObjectHideFlags: 0
