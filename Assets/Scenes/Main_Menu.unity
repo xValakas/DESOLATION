@@ -1960,11 +1960,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 139.94551, y: 26.956343}
+  scrollPos: {x: 136.5331, y: 50.739845}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 594
-  zoom: 1
+  zoom: 0.97
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1972,9 +1972,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 843518588}
-  selectedCommands:
-  - {fileID: 843518629}
+  - {fileID: 843518624}
+  selectedCommands: []
   variables:
   - {fileID: 843518583}
   - {fileID: 843518614}

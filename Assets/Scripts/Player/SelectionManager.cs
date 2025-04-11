@@ -21,7 +21,7 @@ public class SelectionManager : MonoBehaviour
     public SpriteRenderer sr;
     //public List<Sprite> characters = new List<Sprite>();
    // public List<RuntimeAnimatorController> runtimeAnimators = new List<RuntimeAnimatorController>();
-   public List<SelectionInfo> selections = new List<SelectionInfo>();
+    public List<SelectionInfo> selections = new List<SelectionInfo>();
     private int selectedCharacter = 0;
     public Animator playercharacter;
     public TMP_Text nameText;
