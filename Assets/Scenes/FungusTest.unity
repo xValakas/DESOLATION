@@ -627,19 +627,34 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2933713371613338431, guid: f3e1d9ddaf636074e8e6429ac02769db,
         type: 3}
+      propertyPath: m_Size.x
+      value: 26.886564
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933713371613338431, guid: f3e1d9ddaf636074e8e6429ac02769db,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 15.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933713371613338431, guid: f3e1d9ddaf636074e8e6429ac02769db,
+        type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 05fc12efa6b49ef4fba15e46ef9768f1,
+      objectReference: {fileID: 21300000, guid: d693c677bbe74504a84861cc5a6c6ecd,
         type: 3}
+    - target: {fileID: 2933713371613338431, guid: f3e1d9ddaf636074e8e6429ac02769db,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3116278421489614019, guid: f3e1d9ddaf636074e8e6429ac02769db,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 32.26
+      value: 49.72
       objectReference: {fileID: 0}
     - target: {fileID: 3116278421489614019, guid: f3e1d9ddaf636074e8e6429ac02769db,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.04
+      value: 10.74
       objectReference: {fileID: 0}
     - target: {fileID: 3116278421489614019, guid: f3e1d9ddaf636074e8e6429ac02769db,
         type: 3}
@@ -699,12 +714,12 @@ PrefabInstance:
     - target: {fileID: 8568841797347521101, guid: f3e1d9ddaf636074e8e6429ac02769db,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.54
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8568841797347521101, guid: f3e1d9ddaf636074e8e6429ac02769db,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.75
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -778,7 +793,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1145,7 +1160,7 @@ PrefabInstance:
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: 'selectedBlocks.Array.data[0]'
       value: 
-      objectReference: {fileID: 483616369}
+      objectReference: {fileID: 483616355}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: 'selectedCommands.Array.data[0]'
       value: 
@@ -2355,7 +2370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 919.0667
+    x: 920.0667
     y: 89.03185
     width: 128.58
     height: 40
@@ -2561,8 +2576,7 @@ MonoBehaviour:
     beard answers. \n\n\"This city was once known as Vilnius; the capital of Lithuania.
     It's a shame only some data could be recovered, the rest is lost to time.\"\n\nHe
     scratched his head.\n\n\"You lot should really do your homework, it's all in
-    the government archives!\"\n\nHe paused, and then laughed.\n\n\"S'pose you kids
-    aren't too interested in history nowadays.\"\n"
+    the government archives!\""
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2907,7 +2921,8 @@ MonoBehaviour:
   storyText: "The younger man turned his head to look at the older man.\n\n\"Say,
     Commander, why'd they make us do this, anyway? Can Alpha-4 not handle themselves?
     I swear.. we're always chasing after....\"\n\nHis voice was drowned by the sound
-    of \n\nheavy gunfire. Through the window, smoke is rising in the distance.\n\n"
+    of heavy gunfire and bestial roars, \n\nheavy gunfire. Through the window, smoke
+    is rising in the distance.\n\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6018,17 +6033,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: fefdef227a09d1542b179204d23bc4d2,
+      objectReference: {fileID: 21300000, guid: bfbeb7cefd5e9954bb7681b7334931bf,
         type: 3}
     - target: {fileID: 3116278421489614019, guid: f3e1d9ddaf636074e8e6429ac02769db,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 75.44
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 3116278421489614019, guid: f3e1d9ddaf636074e8e6429ac02769db,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.89
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3116278421489614019, guid: f3e1d9ddaf636074e8e6429ac02769db,
         type: 3}
@@ -6078,17 +6093,17 @@ PrefabInstance:
     - target: {fileID: 8568841797347521101, guid: f3e1d9ddaf636074e8e6429ac02769db,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8568841797347521101, guid: f3e1d9ddaf636074e8e6429ac02769db,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8568841797347521101, guid: f3e1d9ddaf636074e8e6429ac02769db,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.71
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
