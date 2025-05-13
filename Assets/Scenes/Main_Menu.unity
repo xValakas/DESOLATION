@@ -5202,6 +5202,9 @@ MonoBehaviour:
   SFXSource: {fileID: 0}
   mixer: {fileID: 24100000, guid: 7608a309091599346bf797568aa29d87, type: 2}
   background: {fileID: 8300000, guid: 1663d7f5f7ad06948bb56d18d0dd454d, type: 3}
+  buttons: {fileID: 8300000, guid: ae46e87a1569d1b45bad01b7cc1de3d3, type: 3}
+  bestialRoar: {fileID: 0}
+  gunfire: {fileID: 0}
   volumeSlider: {fileID: 477943998}
   MasterVolume: MasterVolume
 --- !u!1 &1442474605
@@ -5929,7 +5932,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1612691841
 Transform:
   m_ObjectHideFlags: 0
