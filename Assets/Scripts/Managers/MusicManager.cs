@@ -47,7 +47,7 @@ public class MusicManager : MonoBehaviour
         musicSource.Play();
     }
 
-    void SetVolume(float _value)
+    public void SetVolume(float _value)
     {
         mixer.SetFloat(MasterVolume, ConvertToDecibel(_value / volumeSlider.maxValue));
         PlayerPrefs.SetFloat(MasterVolume, _value);
