@@ -3455,7 +3455,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 57
   blockName: Arrival
-  description: 
+  description: Squad arrives at the cathedral
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 483616470}
@@ -6482,7 +6482,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 96
   blockName: North Annexe
-  description: 
+  description: PC enters North Annexe
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 483616467}
@@ -6536,7 +6536,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 94
   blockName: Cathedral Library
-  description: 
+  description: PC enterrs South Annexe
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 483616469}
