@@ -2990,12 +2990,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 920.0667
     y: 90.03185
-    width: 128.58
+    width: 112.82
     height: 40
   tint: {r: 0.5882353, g: 0.8901961, b: 1, a: 1}
   useCustomTint: 1
   itemId: 20
-  blockName: Prologue Title
+  blockName: Title Quote
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5642,7 +5642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2353.4534
+    x: 2352.2769
     y: 311.95142
     width: 136.58
     height: 40
@@ -6514,7 +6514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2151.7925
+    x: 2150.616
     y: 129.32007
     width: 128.20999
     height: 40
@@ -6864,13 +6864,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 135
   indentLevel: 0
-  storyText: 'Although you cannot decipher the unfamiliar text, the sketches are
+  storyText: "Although you cannot decipher the unfamiliar text, the sketches are
     as clear as day. A harrowing beast standing at nine feet, with an ashen body
-    of a magnificent elk, radiating a sense of decay.
-
-
-    You feel a shiver run
-    down your spine just holding such depiction in your hands.'
+    of a magnificent elk, radiating a sense of decay.\n\nYou feel a shiver run down
+    your spine just holding such depiction in your hands. Over your shoulder, Kasia
+    looks at the sketch and frowns.\n\n\"You found something? Oh, what the hell...\"
+    \n\nYou look to the page again before folding it carefully into your pocket.\n\n\"HQ
+    warned us there'd be something protecting the relic. I wasn't expecting an actual
+    monster though.\""
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6958,8 +6959,8 @@ MonoBehaviour:
     y: 203.64786
     width: 96.15
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.5882353, g: 0.8901961, b: 1, a: 1}
+  useCustomTint: 1
   itemId: 132
   blockName: Chancel
   description: 
@@ -6985,11 +6986,11 @@ MonoBehaviour:
     y: 41.010414
     width: 79
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.5882353, g: 0.8901961, b: 1, a: 1}
+  useCustomTint: 1
   itemId: 131
   blockName: Nave
-  description: Foreshading the main boss
+  description: Information on the Cathedral Boss.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 483616476}

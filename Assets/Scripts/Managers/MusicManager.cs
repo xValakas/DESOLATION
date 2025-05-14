@@ -15,8 +15,6 @@ public class MusicManager : MonoBehaviour
     [Header("Audio Clip")]
     public AudioClip background;
     public AudioClip buttons;
-    public AudioClip bestialRoar;
-    public AudioClip gunfire;
 
     [Header("Settings Menu")]
     public UnityEngine.UI.Slider volumeSlider;
